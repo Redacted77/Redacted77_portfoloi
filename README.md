@@ -1,119 +1,98 @@
-Hazem Abdrahman 
+# Hazem Abdrahman
 
-Python Developer 
- hazemisnumber1@gmail.com 
- LinkedIn | GitHub 
+**Python Developer**  
+📧 hazemisnumber1@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/hazem-rizk-6b2011303/) | [GitHub](https://github.com/Redacted77)
 
- 
+---
 
-About Me 
+## About Me
 
-I am a computer science student with a Python background. I am still learning, but I adapt quickly and have made a lot of progress in a short time. I enjoy automating repetitive tasks and building clean, functional tools. 
- Though I often work solo, I believe that with enough time and focus, I can deliver any task in a well-structured way. I'm interested in a variety of work to expand my experience and improve my skills. 
+I am a computer science student with a Python background. I am still learning, but I adapt quickly and have made a lot of progress in a short time. I enjoy automating repetitive tasks and building clean, functional tools. Though I often work solo, I believe that with enough time and focus, I can deliver any task in a well-structured way. I'm interested in a variety of work to expand my experience and improve my skills.
 
- 
+---
 
-Skills & Tools 
+## Skills & Tools
 
-Languages & Skills 
+### Languages & Skills
+- Python  
+- Problem-solving  
+- Adaptability  
 
-Python 
+### Tools & Libraries
+- OpenCV  
+- PySide6  
 
-Problem-solving 
+---
 
-Adaptability 
+## Projects
 
-Tools & Libraries 
+### 🔹 Video Player  
+A simple video player similar to VLC.  
 
-OpenCV 
+**Tools:** PySide6, python-vlc  
+**Role:** Full development  
+**GitHub:** [Redacted77/Video_Player](https://github.com/Redacted77/Video_Player)  
+> A video player that uses PySide6 for the GUI and python-vlc for video playback.
 
-PySide6 
+---
 
- 
+### 🔹 Automation Script  
+A small Python script to automate sorting files in the Downloads folder. It supports renaming and can monitor the folder for future changes or sort it once.
 
-Projects 
+**Tools:** Python Standard Library  
+**Role:** Developer  
+**GitHub:** [Redacted77/Folder_Sort](https://github.com/Redacted77/Folder_Sort)  
+> Folder Sort is a program that sorts files into designated folders. It can also keep monitoring the folder for changes and logs all events.
 
-Video Player 
+---
 
-A simple Video player like VLC 
+### 🔹 Folder Encryption System *(In Progress)*  
+A Python-based application that combines facial recognition with a user-defined PIN to create a secure, two-factor authentication system for encrypting and decrypting folders on a local machine.
 
-Tools: Pyside6, Python-VLC 
- Role: Full development 
+#### Core Features
+- **Two-Factor Biometric Security:** Combines facial recognition (via `face_recognition` and OpenCV) with PIN authentication.
+- **Folder Encryption:** Uses `cryptography.fernet` to securely encrypt and decrypt folders and subdirectories.
+- **User Access Management:** Stores user profiles (name, PIN, access level, and face encodings) in a SQLite database.
+- **Admin Privileges:** Admin users can add/remove users and adjust access levels securely through a restricted menu.
+- **Logging & Auditing:** Logs all folder operations and authentication attempts.
+- **Safe File Handling:** Encrypts/decrypts in a temporary directory before replacing originals.
+- **Quarantine System:** Isolates files that fail during processing to maintain integrity.
 
- GitHub: Redacted77/Video_Player: A video player that uses PySide6 for the GUI and python-vlc for video playback. 
+#### Highlights
+- **Modular OOP Architecture:**
+  - `LockSystem` for encryption and file operations  
+  - `FacialRecognitionSystem` for biometric operations  
+  - `DatabaseManager` for handling SQLite tasks  
+- **Advanced Error Handling:** Custom exceptions and a quarantine mechanism ensure reliability.  
+- **Dependency Injection:** Decoupled components for better testability and maintainability.  
+- **Security Safeguards:** Prevents accidental encryption of system/project folders.
 
-Automation Script 
+#### Tools Used
+- **Language:** Python  
+- **Libraries:** `face_recognition`, `dlib`, `OpenCV`, `cryptography.fernet`, `sqlite3`, `NumPy`, `pickle`  
+- **Modules:** `os`, `shutil`, `pathlib`  
+- **Status:** Finalizing admin access control, UI elements, and logging system.  
+- **GitHub:** [Redacted77/project_7](https://github.com/Redacted77/project_7)
 
-I created a small Python script to automate sorting files in Download folder, renaming, and it can also monitor the folder for future changes, or it can sort it once . 
- Tools: Python Standard Library 
- Role: Developer 
- GitHub: Redacted77/Folder_Sort: Folder Sort is a program that sorts files into designated folders. It can also keep monitoring the folder for changes and logs all events. 
+---
 
-Folder Encryption System (In Progress) 
+## Offered Services
+- Automation Scripts  
+- Application Development  
 
-A Python-based application that combines facial recognition with a user-defined PIN to create a secure, two-factor authentication system for encrypting and decrypting folders on a local machine. 
+---
 
-Core Features 
+## Education
 
-Two-Factor Biometric Security: Combines facial recognition (via face_recognition and OpenCV) with PIN authentication for enhanced protection. 
+**Computer Science student** – Mansoura University  
+*Expected Graduation:* 2027
 
-Folder Encryption: Uses cryptography.fernet to securely encrypt and decrypt folders and subdirectories, ensuring data confidentiality. 
+---
 
-User Access Management: Stores user profiles (name, PIN, access level, and face encodings) in a SQLite database. 
+## Contact
 
-Admin Privileges: Admin users can add/remove users and adjust access levels securely through a restricted menu. 
+📧 **Email:** hazemisnumber1@gmail.com  
+🔗 **LinkedIn:** [Hazem Rizk](https://www.linkedin.com/in/hazem-rizk-6b2011303/)  
+🐙 **GitHub:** [Redacted77](https://github.com/Redacted77)
 
-Logging & Auditing: All folder operations and authentication attempts are logged for traceability and auditing. 
-
-Safe File Handling: Encrypts/decrypts in a temporary directory before replacing originals to prevent data loss. 
-
-Quarantine System: Isolates any files that fail during processing, maintaining overall operation integrity. 
-
-Highlights 
-
-Modular OOP Architecture: Clean separation of logic across components: 
-
-LockSystem for encryption and file operations 
-
-FacialRecognitionSystem for capturing and validating biometric data 
-
-DatabaseManager for handling SQLite operations 
-
-Advanced Error Handling: Custom exceptions and quarantine mechanism ensure reliability. 
-
-Dependency Injection: Core systems are decoupled for testability and maintainability. 
-
-Security Safeguards: Prevents accidental encryption of system or project directories. 
-
-Tools Used 
-
-Language: Python 
-
-Libraries: face_recognition, dlib, OpenCV, cryptography.fernet, sqlite3, NumPy, pickle 
-
-Modules: os, shutil, pathlib 
-
-Status: Currently finalizing admin access control, Ui elements and logging system. 
-
-GitHub: Redacted77/project_7: work in progress 
-
-Offered Services 
-
-Automation Scripts 
-
-Application Devlopment 
-
-Education 
-
-Computer Science student in Mansoura university 
- Expected Graduation: 2027 
-
- 
-
-Contact 
-
-Email: hazemisnumber1@gmail.com 
-
-LinkedIn: Hazem Rizk 
-
-GitHub: Redacted77 
