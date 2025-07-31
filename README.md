@@ -38,7 +38,7 @@ A simple video player similar to VLC.
 ---
 
 ### 🔹 Automation Script  
-A small Python script to automate sorting files in the Downloads folder. It supports renaming and can monitor the folder for future changes or sort it once.
+A small Python script to automate sorting files in a folder. It supports renaming and can monitor the folder for future changes or sort it once.
 
 **Tools:** Python Standard Library  
 **Role:** Developer  
